@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 50px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+}
+
+#seleccion-cuenta {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#operaciones {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+select, input[type="password"], input[type="number"] {
+  margin: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  margin: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#mensaje-error {
+  color: red;
+  margin-top: 10px;
+}
+
+#mensaje-operacion {
+  color: green;
+  margin-top: 10px;
+}
+
+#saldo {
+  font-weight: bold;
+}
+
+button,
+input[type="password"],
+input[type="number"] {
+  transition: all 0.3s;
+}
+
+button:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px #4CAF50;
+}
